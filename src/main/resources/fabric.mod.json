@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "kyofishing",
+	"version": "${version}",
+	"name": "Kyo Fishing",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Kyo"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/godkyo98",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kyofishing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"kyofishing.KyoFishing"
+		],
+		"client": [
+			"kyofishing.client.KyoFishingClient"
+		]
+	},
+	"mixins": [
+		"kyofishing.mixins.json",
+		{
+			"config": "kyofishing.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
