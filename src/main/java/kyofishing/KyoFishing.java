@@ -48,6 +48,8 @@ public class KyoFishing implements ModInitializer {
 				colorCode = "§b";   // Xanh lơ (Thợ săn)
 			} else if (level >= 100) {
 				colorCode = "§a";   // Xanh lá (Tập sự)
+			} else if (level >= 50) {
+				colorCode = "§2";   // Xanh lá đậm (Khởi đầu)
 			}
 
 			// Trả về số cấp độ đã kèm màu
