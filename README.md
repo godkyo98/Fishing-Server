@@ -1,5 +1,4 @@
-# Define the README content
-readme_content = """# KyoFishing - Hệ thống Câu cá chuyên nghiệp cho Minecraft (Fabric 26.2)
+KyoFishing - Hệ thống Câu cá chuyên nghiệp cho Minecraft (Fabric 26.2)
 
 KyoFishing là một mod **Server-side** mạnh mẽ, được thiết kế riêng để nâng cấp trải nghiệm câu cá trên TEA Server. Với kiến trúc Modular hiện đại và sự tối ưu hóa cho phiên bản Minecraft 26.2, mod mang đến cơ chế câu cá thú vị, hệ thống nổ hũ (Jackpot) kịch tính và tích hợp sâu sắc vào nền tảng kinh tế của máy chủ.
 
