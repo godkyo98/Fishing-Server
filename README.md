@@ -43,7 +43,3 @@ Dự án này là một phần trong hệ sinh thái **TEA Server**. Mọi ý t�
 ---
 *Developed with ❤️ for TEA Server*
 """
-
-# Save to a file
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
