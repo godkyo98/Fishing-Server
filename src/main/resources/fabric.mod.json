@@ -8,8 +8,8 @@
 		"Kyo"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/user/godkyo98",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/fishing-server",
+		"sources": "https://github.com/godkyo98/Fishing-Server"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/kyofishing/icon.png",
@@ -30,8 +30,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
